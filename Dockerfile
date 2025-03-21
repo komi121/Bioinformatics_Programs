@@ -94,8 +94,7 @@ ENV PICARD="$TOOLS/picard-${PICARD_VERSION}/picard.jar"
 # MultiQC
 # Версия: 1.27.1
 # Дата релиза: 7 February 2025
-RUN pip3 install multiqc==${MULTIQC_VERSION} && \
-    pip3 cache purge
+RUN pip3 install multiqc==${MULTIQC_VERSION}
 
 # Устанавливаем переменную для исполняемого файла MultiQC
 ENV MULTIQC="multiqc"
