@@ -36,7 +36,7 @@ docker build -t bioinfo-tools:latest https://github.com/komi121/Bioinformatics_P
 
 ### Запуск в интерактивном режиме
 ```bash
-docker run -it --rm -v /path/to/arkom/data:/data bioinfo-tools:latest
+docker run -it --rm -v /path/to/data:/data bioinfo-tools:latest
 ```
 
 ### Проверка установки
